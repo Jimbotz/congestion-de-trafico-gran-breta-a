@@ -1,0 +1,66 @@
+{
+  "model_type": "GradientBoosting_OneVsRest",
+  "L1": 349,
+  "L2": 567,
+  "L3": 854,
+  "L4": 1479,
+  "direction_labels": [
+    "N",
+    "S",
+    "E",
+    "W"
+  ],
+  "region_labels": [
+    "South East",
+    "North West",
+    "London",
+    "East of England",
+    "South West",
+    "West Midlands",
+    "Yorkshire and The Humber",
+    "East Midlands",
+    "Scotland",
+    "Wales",
+    "North East"
+  ],
+  "accuracy": 0.3444479204022616,
+  "class_metrics": {
+    "MUY BAJO": {
+      "precision": 0.45249064866344313,
+      "recall": 0.5035151392096647,
+      "f1": 0.47664123971409694
+    },
+    "BAJO": {
+      "precision": 0.2767871260167601,
+      "recall": 0.2025012210483021,
+      "f1": 0.2338873095165636
+    },
+    "MEDIO": {
+      "precision": 0.2985362971044138,
+      "recall": 0.16713960324226654,
+      "f1": 0.21430028143736998
+    },
+    "ALTO": {
+      "precision": 0.29777580678174254,
+      "recall": 0.22259907176008567,
+      "f1": 0.25475717954704646
+    },
+    "MUY ALTO": {
+      "precision": 0.3385111893766017,
+      "recall": 0.620968350134493,
+      "f1": 0.43816407982261646
+    }
+  },
+  "feature_importance": {
+    "latitude": 0.3296045520595888,
+    "longitude": 0.3242313394204298,
+    "region_idx": 0.15377073660527835,
+    "hour_cos": 0.06430115707021482,
+    "direction_idx": 0.04605495636998262,
+    "month": 0.037676521083487735,
+    "hour_sin": 0.0353181643494417,
+    "day_of_week": 0.008014631188848518,
+    "is_rush_hour": 0.0010279418527276139,
+    "is_weekend": 0.0
+  }
+}

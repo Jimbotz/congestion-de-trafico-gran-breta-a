@@ -1,0 +1,68 @@
+{
+  "model_type": "RandomForest",
+  "L1": 349,
+  "L2": 567,
+  "L3": 854,
+  "L4": 1479,
+  "direction_labels": [
+    "N",
+    "S",
+    "E",
+    "W"
+  ],
+  "region_labels": [
+    "South East",
+    "North West",
+    "London",
+    "East of England",
+    "South West",
+    "West Midlands",
+    "Yorkshire and The Humber",
+    "East Midlands",
+    "Scotland",
+    "Wales",
+    "North East"
+  ],
+  "accuracy": 0.5362444903949112,
+  "class_metrics": {
+    "MUY BAJO": {
+      "precision": 0.5946058740675049,
+      "recall": 0.7232049947970863,
+      "f1": 0.6526307351400253
+    },
+    "BAJO": {
+      "precision": 0.3895867674643324,
+      "recall": 0.3523816868460965,
+      "f1": 0.3700514260261584
+    },
+    "MEDIO": {
+      "precision": 0.3764488303474369,
+      "recall": 0.3393054830951684,
+      "f1": 0.3569133984740998
+    },
+    "ALTO": {
+      "precision": 0.4677832197090891,
+      "recall": 0.4846865915234355,
+      "f1": 0.4760849145218861
+    },
+    "MUY ALTO": {
+      "precision": 0.8248847926267281,
+      "recall": 0.7762261494758541,
+      "f1": 0.7998160895721492
+    }
+  },
+  "feature_importance": {
+    "all_hgvs": 0.7334396028041402,
+    "hour": 0.07774651737243592,
+    "latitude": 0.07310532795365784,
+    "longitude": 0.05838572470760781,
+    "region_idx": 0.052366991616882616,
+    "direction_idx": 0.002535753355892104,
+    "day_of_week": 0.0015290767770922645,
+    "month": 0.0008910054122912372
+  },
+  "hyperparameters": {
+    "numTrees": 40,
+    "maxDepth": 10
+  }
+}

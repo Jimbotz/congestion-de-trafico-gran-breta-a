@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1767059028942,"sparkVersion":"4.1.0","uid":"StringIndexer_af5ee91f4866","paramMap":{"handleInvalid":"skip","inputCol":"direction_of_travel","outputCol":"direction_idx"},"defaultParamMap":{"handleInvalid":"error","outputCol":"StringIndexer_af5ee91f4866__output","stringOrderType":"frequencyDesc"}}
