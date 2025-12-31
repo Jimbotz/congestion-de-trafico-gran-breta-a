@@ -19,3 +19,8 @@ Instala las dependencias necesarias ejecutando:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Proyecto realizado por:
+RODRIGO CAHUANTZI CUAHUTLE.
+JAYME SAID BARBOSA HERNÁNDEZ.
